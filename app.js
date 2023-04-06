@@ -66,7 +66,7 @@ fetch("https://jsonplaceholder.typicode.com/todos?completed=false")
         for (let i = 0; (len = unique_userid.length), i < len; i++) {
           users.forEach((user) => {
             if (user.id == unique_userid[i]) {
-              console.log(user.name);
+              // console.log(user.name);
             }
           });
         }
